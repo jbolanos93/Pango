@@ -17,6 +17,9 @@ This notebook will run under the assumption that a Conda environment is present 
 
 Simply place the **.fasta** file with consensus Sars-Cov-2 sequences and run the Notebook. 
 
+** A Small 50 Squence .fasta file is provided with the cloning of this repo.** 
+Note: This .fasta file is not of real DNA sequences, it has been arbitrarily made by randomizing SNPs on the original Sars-Cov-2 Genome. 
+
 ### Processess 
 
 * Script will write Shell Scripts that will run automatically and then be placed in the 'Shell' directory. 
