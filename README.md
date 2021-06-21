@@ -19,16 +19,10 @@ Simply place the **.fasta** file with consensus Sars-Cov-2 sequences and run the
 
 ### Processess 
 
-Script will write Shell Scripts that will run automatically and then be placed in the 'Shell' directory. Both Shell Scrips look like: 
+* Script will write Shell Scripts that will run automatically and then be placed in the 'Shell' directory. 
 
-#!/bin/sh
 
-cd ./Sequence/
-eval "$(conda shell.bash hook)"
-conda activate pangolin
-pangolin *"Name_Of_your_Fasta_File"*
-
-You Can Find the Final reports created by Pangolin in the 'Final_Report' folder. 
+* You Can Find the Final reports created by Pangolin in the 'Final_Report' folder. 
 
 
 
